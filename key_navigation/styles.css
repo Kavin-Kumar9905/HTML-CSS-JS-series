@@ -1,0 +1,30 @@
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+}
+
+.container{
+  max-width:500px;
+  margin:80px auto;
+  text-align:center;
+}
+
+.list{
+  list-style:none;
+  padding:0;
+}
+
+.item{
+  padding:12px;
+  margin:5px 0;
+  background:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* Active / Focus style */
+.item.active{
+  background:#007BFF;
+  color:white;
+}
