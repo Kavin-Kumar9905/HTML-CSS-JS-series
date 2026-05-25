@@ -1,0 +1,24 @@
+body{
+  font-family:Arial;
+  text-align:center;
+  margin-top:50px;
+}
+
+button{
+  padding:10px 20px;
+  cursor:pointer;
+}
+
+/* Alert box */
+.alert{
+  margin:20px auto;
+  padding:12px;
+  width:300px;
+  border-radius:6px;
+  background:#ff4d4d;
+  color:white;
+}
+
+.hidden{
+  display:none;
+}

@@ -1,0 +1,34 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f8;
+  text-align:center;
+}
+
+.container{
+  max-width:500px;
+  margin:40px auto;
+}
+
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+input, select, button{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+}
+
+button{
+  background:#007BFF;
+  color:white;
+  cursor:pointer;
+}
+
+#loading{
+  margin-top:10px;
+  color:#007BFF;
+}

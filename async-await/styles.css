@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f8;
+  text-align:center;
+}
+
+.container{
+  max-width:600px;
+  margin:40px auto;
+}
+
+button{
+  padding:10px 20px;
+  cursor:pointer;
+}
+
+#loading{
+  margin:10px;
+  color:#007BFF;
+}
+
+img{
+  width:100%;
+  max-width:400px;
+  margin-top:20px;
+  border-radius:10px;
+}

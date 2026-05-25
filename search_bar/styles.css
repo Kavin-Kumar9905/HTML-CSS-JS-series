@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f8;
+}
+
+.container{
+  max-width:600px;
+  margin:40px auto;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+  gap:10px;
+}
+
+.card{
+  padding:15px;
+  background:white;
+  border-radius:6px;
+  text-align:center;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}

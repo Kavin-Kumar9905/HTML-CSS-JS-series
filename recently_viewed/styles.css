@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f8;
+}
+
+.container{
+  max-width:600px;
+  margin:50px auto;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:10px;
+}
+
+.card{
+  padding:20px;
+  background:white;
+  border-radius:8px;
+  text-align:center;
+  cursor:pointer;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+  transition:0.2s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+#recentList{
+  margin-top:20px;
+  padding:0;
+}
+
+#recentList li{
+  list-style:none;
+  padding:10px;
+  background:#eee;
+  margin-bottom:5px;
+  border-radius:6px;
+}

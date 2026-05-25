@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6f8;
+}
+
+.container{
+  max-width:600px;
+  margin:40px auto;
+}
+
+button{
+  padding:10px;
+  cursor:pointer;
+}
+
+#loading{
+  margin-top:10px;
+  color:#007BFF;
+}
+
+li{
+  list-style:none;
+  padding:10px;
+  background:white;
+  margin-top:8px;
+  border-radius:6px;
+}
