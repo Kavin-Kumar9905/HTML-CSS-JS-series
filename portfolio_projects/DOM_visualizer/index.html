@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DOM Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>DOM Visualizer</h1>
+
+    <div class="container">
+
+        <!-- LEFT Playground -->
+        <div class="playgound" id="playground">
+            <div class="box parent">
+                Parent
+                <div class="box child">
+                       Child
+                       <button class="box">Button</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT Tree -->
+        <div class="tree" id="tree"></div>
+
+    </div>
+    
+    <p id="info">Click any element to inspect</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

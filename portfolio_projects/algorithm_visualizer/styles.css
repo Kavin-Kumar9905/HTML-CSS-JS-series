@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background: #f4f6f8;
+    margin: 20px;
+}
+
+.controls{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+bars-container{
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.bar{
+    width: 30px;
+    background: #3b82f6;
+    transition: 0.2s;
+}
+
+.active{
+    background: #ef4444;
+}
+
+.sorted{
+    background: #22c55e;
+}
